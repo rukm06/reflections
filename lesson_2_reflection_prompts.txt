@@ -16,6 +16,9 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	If I want to make a different version or, experiment version, without influencing original version, git branch provide a flexible way to achieve.
+	I can simply use "git branch" command to fork a branch from master, then add new commit on it. Master will not be affect by new branch.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
