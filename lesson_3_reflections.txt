@@ -26,7 +26,8 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    I might use share folder system like Dropbox to collaborate coding. It will be easier to share and sync working directory because of that we don't need to push and pull codebase manually. 
+    But, Dropbox does not provide manual save option, it will save modified files automatically. If many people are working on the same files at the same time, it might cause serious conflict and hard to maintain.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
