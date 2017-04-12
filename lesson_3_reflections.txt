@@ -32,4 +32,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When I want to take some interesting experments, make new algorithm, or creat new items that I don't want to affect master branch, I will separate new branch for these action.
+
+    Benefit of working on master: new commits will apply to master directly, do not need to make merging after that.
+    Benefit of working on separated branch: Keep tracking record and flexibility to decide if the branch should be merged into master, it's quite suitable for a large collaboration group.
