@@ -20,7 +20,8 @@ What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
     First, we can work at local directory without internet access for a while.(e.g. get on a plane)
-    Second, having a copy of last known state of remote is just like a buffer between local and remote repository. If out of sync occurs between local and remote repository, we can check the difference first and decide how to merge.
+    Second, having a copy of the last known state would reduce the possibility of conflicting changes from other collaborators. 
+    Third, even conflicts occur, we can check the difference and decide how to combine more easily and efficiently with the last state of remote. 
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
