@@ -14,7 +14,7 @@ use one instead of another?
     Clones means to make a copied repository from github to local directory, or from local to local.
     Branches means to create a new extended codebase at certain commit point to separate a new codebase from master.
 
-    I will use fork when I'd like to copy a repository from somebody's github to my github. And, using clone when I need to remote copy a repository to local. Finally, I'd like to create branch when I want to take experiment, but do not influence master codebase.
+    I will use a fork when I'd like to copy a repository from somebody's github to my github. And, using a clone when I need to remote copy a repository to local. Finally, I'd like to create a branch when I want to take an experiment without any influence on master codebase.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
