@@ -1,17 +1,18 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-	A new hidden path ".git" will be created. .git path store the information repository needed, without this path, git can not work.
+	A new hidden path ".git" will be created. It is used to store commit messages and records that a git repository needed, without this path, git can not work.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-	Staging area is a temporary space that store the files prepared to commit into repository, it is a middle role between workig directory and repository. Before committing files into repository, we should add desired files from working directory to staging area, then commit all the files as a package into repository.
-	Staging area provides a buffer between working directory and repository, that we can have flexibility to choose commited files and make repository neat as desired.	
+	Staging area is a temporary space that stores the files prepared to commit into repository. It is a middle role between workig directory and repository. The working directory stores all the files we created but not ready to commit. The staging area stores the files we added (by using git add) and ready to commit. And the repository stores the files that already be committed.
+
+	Staging area provides a buffer between working directory and repository, it offers flexibility to choose commited files and makes repository neat as we desired.	
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-	After logical change at working directory, we can use "git diff" command to double check the difference between working directory and staging area. Furthermore, after "git add" modified file(s), we also can use "git diff --staged" to further check the difference between staging area and repository. Both of these two actions can help us make sure to commit is right and per logical change.
+	Once a logical change is done at working directory, we can use "git diff" command to double check the difference between working directory and staging area. Furthermore, after "git add" modified file(s), we also can use "git diff --staged" to further check the difference between staging area and repository. Both the two actions can help us make sure the commit is right and per logical change.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
@@ -26,7 +27,7 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-	Codes or file contents of two branches will combine together.
+	The codes or the contents of two branches will be combined together.
 	After merging, two branches will connect together with a merge commit, therefore, all the commits of two braches can be reached.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
